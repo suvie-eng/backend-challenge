@@ -1,8 +1,9 @@
 # Suvie Date Adjusting Challenge
 At Suvie we delivery meals to our customers on a weekly schedule. For your technical challenge we would like you to implement a feature to allow a customer to change their weekly delivery schedule through an API endpoint you will implement.The application should fulfill the requirements below. The source code must be placed in a public repo on GitHub. The application should be deployable on Heroku.
 
-Code
-- Please fork the following repository
+Setup
+- Please run `rails db:setup` to create DB, run migrations, and seeds.
+- Please see simple ERD in docs/erd.pdf for simple data model.
 
 Requirements
 - There should exist an API that updates a user's account information
